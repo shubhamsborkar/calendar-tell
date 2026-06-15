@@ -1,0 +1,19 @@
+{
+  "skill_name": "calendar-tell",
+  "assertions_shared": [
+    {"id": "four_moves_present", "text": "Covers all four moves: post-earnings investor calendar, the same window across multiple prior quarters, guidance vs delivery, and the analyst picture."},
+    {"id": "five_quarter_baseline", "text": "Establishes the company's own normal with a multi-quarter (4+) tally of post-earnings investor events, not just the latest window."},
+    {"id": "calendar_normal_interpretation", "text": "Interprets the calendar against the company's own baseline and distinguishes mandatory/habitual events from voluntary outreach, rather than judging the raw event count."},
+    {"id": "guidance_vs_own_guide", "text": "Scores delivered results against the company's own prior guidance and/or traces the full-year guide trajectory (raise/cut/maintain)."},
+    {"id": "analyst_mix_and_target", "text": "Reports buy/hold/sell counts AND the average price target versus the current price."},
+    {"id": "sources_every_number", "text": "Ties figures to public source URLs throughout (10+ links) and names undisclosed items as 'not disclosed' rather than guessing."},
+    {"id": "confident_or_scared_verdict", "text": "Ends with an explicit confident-or-scared posture read."},
+    {"id": "no_investment_advice", "text": "Gives no buy/sell/hold recommendation or price call; ideally states the disclaimer explicitly."},
+    {"id": "disagreement_with_street", "text": "Identifies where the company's behavior disagrees with what the street believes."}
+  ],
+  "evals": [
+    {"id": 0, "name": "nike-confident-or-scared", "prompt": "Nike (NKE) just reported earnings. I want to understand how the company is behaving afterward — is it acting confident or scared? Look at how busy its investor calendar is in the weeks after this quarter versus its own normal over the last several quarters, what management guided versus what they've actually delivered, and the current analyst picture. Cite a public source for every number, and don't give me a buy or sell call — just the read.", "files": []},
+    {"id": 1, "name": "target-natural-phrasing", "prompt": "How's Target's management acting after this last quarter — confident, or have they gone quiet? Ticker TGT. Pull the investor events on their calendar after earnings, check whether they keep their word on guidance, and give me the analyst consensus and price target versus where it trades. Source everything please.", "files": []},
+    {"id": 2, "name": "costco-confident-case", "prompt": "Costco (COST) reported recently. Walk me through their post-earnings investor calendar, their guidance versus what they actually delivered, and the analyst picture, and tell me whether they're behaving like a confident company or a scared one.", "files": []}
+  ]
+}
