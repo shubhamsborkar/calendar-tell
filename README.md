@@ -2,7 +2,7 @@
 
 A confident company fills its investor calendar after a good quarter and goes quiet after a bad one.
 
-This repo documents, end to end, how I read a company's post-earnings behavior with one plain-English paragraph in Claude Code, using Lululemon (LULU) as the live case in the days after it cut guidance. It accompanies this edition of Alpha with AI: [NEWSLETTER LINK]
+This repo documents, end to end, how I read a company's post-earnings behavior with one plain-English paragraph in Claude Code, using Lululemon (LULU) as the live case in the days after it cut guidance. It accompanies this edition of Alpha with AI:(https://ai.shikshannivesh.com/p/i-taught-ai-to-read-a-companys-earnings)]
 
 ## What is in here
 
